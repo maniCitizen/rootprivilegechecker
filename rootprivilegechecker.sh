@@ -25,3 +25,6 @@ do
 
     esac
 done < group.txt
+
+#Remove the file group.txt after the script gets completed
+rm group.txt
